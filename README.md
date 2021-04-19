@@ -1,2 +1,2 @@
 # Python-Fundamentals
-Basics of Python
+Im going throught the basics of Python
