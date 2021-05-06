@@ -5,7 +5,7 @@ print(numeric_value.isnumeric())
 string_value = 'Bob'
 print(string_value.isnumeric())
 
-# Gate user input by using if & isnumeric()
+# Get user input by using if & isnumeric()
 
 val1 = input('First Number: ')
 
