@@ -1,5 +1,5 @@
 # Hello World Command
-# print("Hello World!")
+print("Hello World!")
 
 # Get input command
 print("What is your name?")
