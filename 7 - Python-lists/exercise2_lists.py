@@ -66,7 +66,6 @@ for  suit in suits:
 
 # Choose randomly from a list
 print()
-import random
 
 numbers = [42, 77, 16, 101, 23, 8, 4, 15, 55]
 selected_number = random.choice(numbers)
