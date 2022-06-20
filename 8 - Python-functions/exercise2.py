@@ -30,7 +30,7 @@ def print_keywords_args(**kwargs):
 
     for key, value in kwargs.items():
         print(f'{key} = {value}')
-        
+
     third = kwargs.get('third', None)
     if third != None:
         print('third arg =', third)
