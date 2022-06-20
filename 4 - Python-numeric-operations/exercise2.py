@@ -1,4 +1,7 @@
 # isnumeric()
+import sys
+
+
 numeric_value = '7'
 print(numeric_value.isnumeric())
 
@@ -11,13 +14,13 @@ val1 = input('First Number: ')
 
 if val1.isnumeric() == False:
     print('Value is not a number.')
-    exit()
+    sys.exit()
 
 val2 = input('Second Number: ')
 
 if val2.isnumeric() == False:
     print('Value is not a number.')
-    exit()
+    sys.exit()
 
 print('Sum:', str(int(val1) + int(val2)))
 
@@ -28,7 +31,7 @@ val2 = input('Second Number: ')
 
 if val1.isnumeric() == False or val2.isnumeric() == False:
     print('Please enter numbers only.')
-    exit()
+    sys.exit()
 
 val1 = int(val1)
 val2 = int(val2)
