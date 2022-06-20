@@ -11,4 +11,3 @@ elif value == 'yes' or value == 'y':
 else:
     print('Please try again and respond with yes or no')
 
-    
