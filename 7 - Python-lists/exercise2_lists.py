@@ -39,8 +39,7 @@ for number in numbers:
     if number > 90:
         print('Found at least one number greater than 90')
         break
-    else:
-        print('No numbers greater than 90')
+    print('No numbers greater than 90')
 print('Complete')
 
 # Use a continue statement
