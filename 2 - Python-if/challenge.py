@@ -2,9 +2,9 @@ import time
 
 value = input('Do you want to continue ? > ')
 
-if value == 'no' or value == 'n':
+if value in ('no', 'n'):
     print('Exiting')
-elif value == 'yes' or value == 'y':
+elif value in ('yes', 'y'):
     print('Continuing ...')
     time.sleep(2)
     print('Complete!')
